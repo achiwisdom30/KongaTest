@@ -1,0 +1,351 @@
+{
+  "id": "b5a64527-a3dc-49fa-8ac3-52e30a2f6ac7",
+  "version": "2.0",
+  "name": "Project on Konga",
+  "url": "https://www.konga.com/",
+  "tests": [{
+    "id": "c293b33e-2a8e-4e59-bd7a-5e77c166f40e",
+    "name": "Project on konga",
+    "commands": [{
+      "id": "23b5aa80-f03b-47b3-91af-15bc0001d9a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "396f703b-8a82-4491-b300-42291f67427c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfbd0571-9b43-47cd-981a-74a3714ff9ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33483271-3a62-4929-aef0-38a35da409e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "820dd972-c5ef-4d49-ac8a-6d6dcb2fdeeb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=Macbooks",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "c03a2914-5530-490e-8cd4-b3e197d92872",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17a3df8b-0303-4a2b-bfa2-137ae425df05",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05785ec9-94b6-45b2-9ccc-31670888f9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.List_listItem__KlvU2:nth-child(1) .button_button__cpnXl",
+      "targets": [
+        ["css=.List_listItem__KlvU2:nth-child(1) .button_button__cpnXl", "css:finder"],
+        ["xpath=(//button[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section/ul/li/article/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d52f732-c892-4603-bb97-59a9fda73ccc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Proceed to Checkout",
+      "targets": [
+        ["linkText=Proceed to Checkout", "linkText"],
+        ["css=.flash_rightAction__k3jbo", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to Checkout')]", "xpath:link"],
+        ["xpath=//section[@id='app-content-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/checkout/complete-order')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Proceed to Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "360518d9-d66f-4438-9725-e0e416fe088c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb64666d-c876-4ba7-be63-e08c08d8d70f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaf29ebb-a0de-4bee-b2b9-243f0c76f155",
+      "comment": "",
+      "command": "click",
+      "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
+      "targets": [
+        ["css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input", "css:finder"],
+        ["xpath=//input[@value='kpaygateway']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c44c7f1e-ff7e-47ed-9f18-a685ca526dff",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
+      "targets": [
+        ["css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input", "css:finder"],
+        ["xpath=//input[@value='kpaygateway']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "133ef3c1-4b58-48e4-9bd2-0d4e48327535",
+      "comment": "",
+      "command": "click",
+      "target": "name=placeOrder",
+      "targets": [
+        ["name=placeOrder", "name"],
+        ["css=.checkout_placeOrderButton__yJwNl", "css:finder"],
+        ["xpath=//button[@name='placeOrder']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue to Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ba85f61-ff13-46c6-ba67-68d3c2d4be72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=placeOrder",
+      "targets": [
+        ["name=placeOrder", "name"],
+        ["css=.checkout_placeOrderButton__yJwNl", "css:finder"],
+        ["xpath=//button[@name='placeOrder']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue to Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec19950-ec89-475d-8c1f-3eeb46b0282a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=placeOrder",
+      "targets": [
+        ["name=placeOrder", "name"],
+        ["css=.checkout_placeOrderButton__yJwNl", "css:finder"],
+        ["xpath=//button[@name='placeOrder']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a215b0fa-0caf-49d5-9e63-a184002f54f9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "8febc603-01a7-4b00-b872-648414d8ed4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Card .payment-option-name",
+      "targets": [
+        ["css=.Card .payment-option-name", "css:finder"],
+        ["xpath=//div[@id='channel-template']/div[2]/div/div[3]/button/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9819cd27-8226-48e8-a921-9a19cde34dfb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.Card .payment-option-name",
+      "targets": [
+        ["css=.Card .payment-option-name", "css:finder"],
+        ["xpath=//div[@id='channel-template']/div[2]/div/div[3]/button/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e676840-8c1e-466b-b8d0-c56666ed0e5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=card-number",
+      "targets": [
+        ["id=card-number", "id"],
+        ["css=#card-number", "css:finder"],
+        ["xpath=//input[@id='card-number']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "120a1f00-1622-4ad8-96db-d7b03eb8f33c",
+      "comment": "",
+      "command": "type",
+      "target": "id=card-number",
+      "targets": [
+        ["id=card-number", "id"],
+        ["css=#card-number", "css:finder"],
+        ["xpath=//input[@id='card-number']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4869 4321 1439 0208 "
+    }, {
+      "id": "919cc78f-0e08-4fe5-8a1d-2f726b774c24",
+      "comment": "",
+      "command": "click",
+      "target": "id=expiry",
+      "targets": [
+        ["id=expiry", "id"],
+        ["css=#expiry", "css:finder"],
+        ["xpath=//input[@id='expiry']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6c94df-e07d-4193-b6d9-1acd286316d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=expiry",
+      "targets": [
+        ["id=expiry", "id"],
+        ["css=#expiry", "css:finder"],
+        ["xpath=//input[@id='expiry']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "20/27"
+    }, {
+      "id": "092a2f8f-c4a8-49dd-a3d5-c37729f11dc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["name=cvv", "name"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896f0f32-5ad1-48c3-80bd-bd16037af00e",
+      "comment": "",
+      "command": "type",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["name=cvv", "name"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "245"
+    }, {
+      "id": "7401867e-a27c-416a-9efb-f28273c21f5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=validateCardForm",
+      "targets": [
+        ["id=validateCardForm", "id"],
+        ["css=#validateCardForm", "css:finder"],
+        ["xpath=//button[@id='validateCardForm']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a4a00bd-59e3-47e6-b135-8aa23ec0b935",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=card-number_unhappy",
+      "targets": [
+        ["id=card-number_unhappy", "id"],
+        ["css=#card-number_unhappy", "css:finder"],
+        ["xpath=//label[@id='card-number_unhappy']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Invalid card number')]", "xpath:innerText"]
+      ],
+      "value": "Invalid card number"
+    }, {
+      "id": "6d73a8e7-7596-447d-8b12-01b6861dd40a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.data-card__close",
+      "targets": [
+        ["css=.data-card__close", "css:finder"],
+        ["xpath=//aside[@onclick='UIHelper.returnToMerchantPage()']", "xpath:attributes"],
+        ["xpath=//aside", "xpath:position"],
+        ["xpath=//aside[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5bef28c-1d50-451f-ac71-f8e89023cdea",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "072a3bd9-5ef3-4fac-9e3c-1552f759bb78",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c293b33e-2a8e-4e59-bd7a-5e77c166f40e"]
+  }],
+  "urls": ["https://www.konga.com/"],
+  "plugins": []
+}
